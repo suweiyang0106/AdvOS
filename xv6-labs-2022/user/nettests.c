@@ -246,7 +246,7 @@ dns_rep(uint8 *ibuf, int cc)
 static void
 dns()
 {
-  return;//suwei add
+  //return;//suwei add
   #define N 1000
   uint8 obuf[N];
   uint8 ibuf[N];
