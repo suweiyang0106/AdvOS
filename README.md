@@ -1,8 +1,9 @@
 # AdvOS
 Two projects are here:
 1. Pipe improvement 2. Network driver improvement  
+
+![image](https://github.com/suweiyang0106/AdvOS/blob/main/pipecopyinout.png)  
 **Pipe improvement**
-![image](https://github.com/suweiyang0106/AdvOS/blob/main/pipecopyinout.png)
 Pipe architecture is shown above, and the differences between modifications are below.
 Original: byte by byte bandwidth + copy 1 byte at once
 Improved: chunk by chunk + copy 4 bytes at once
