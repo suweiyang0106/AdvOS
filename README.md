@@ -20,4 +20,7 @@ Original/Improved/Improved2(MB/tick): **0.03**/**0.15**/**14.49**
 
 **Network driver improvement**  
   
-
+Original: write message chunk by chunk to kernel  
+Improved: map physical address from user to kernel directly  
+Evaluation (transmit 660 bytes):  
+Original/Improved(ticks): **29**/**11**  
