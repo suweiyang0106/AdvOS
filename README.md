@@ -23,4 +23,6 @@ Original/Improved/Improved2(MB/tick): **0.03**/**0.15**/**14.49**
 Original: write message chunk by chunk to kernel  
 Improved: map physical address from user to kernel directly  
 Evaluation (transmit 660 bytes):  
-Original/Improved(ticks): **29**/**11**  
+Original/Improved(ticks): **19**/**8**   (shown below top: original below: improved)  
+![image](https://github.com/suweiyang0106/AdvOS/blob/main/DriverOriginal.png)  
+![image](https://github.com/suweiyang0106/AdvOS/blob/main/Driverimproved.png)  
