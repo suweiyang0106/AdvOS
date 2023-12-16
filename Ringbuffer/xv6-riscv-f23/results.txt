@@ -1,0 +1,8 @@
+unmodified xv6:337
+xv6 + your hacked pipe.c:76
+xv6 + your hacked vm.c:321
+xv6 with both of your changes:66
+xv6 with ring buffer: 1
+
+Explaination:
+Afrer the modification from pip.c, the throughput 
