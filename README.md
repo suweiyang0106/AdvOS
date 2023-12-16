@@ -1,2 +1,4 @@
 # AdvOS
-Bringing some kernel works to user space to release kernel stress.
+Two projects here:
+1. Ring buffers
+2. Network driver
