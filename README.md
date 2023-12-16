@@ -1,4 +1,4 @@
-![image](https://github.com/suweiyang0106/AdvOS/assets/20301839/efc8c797-c74f-433d-884a-b7d0128df345)# AdvOS
+# AdvOS
 Two projects are here:
 1. Pipe improvement 2. Network driver improvement
 **Pipe improvement**
