@@ -7,7 +7,6 @@ Two projects are here:
 **Pipe improvement**  
 
 Pipe architecture is shown above, and the differences between modifications are below.  
-
 Original: byte by byte bandwidth + copy 1 byte at once  
 
 Improved: chunk by chunk + copy 4 bytes at once  
