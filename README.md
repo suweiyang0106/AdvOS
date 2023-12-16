@@ -1,6 +1,6 @@
 # AdvOS
 Two projects are here:
-1. Pipe improvement 2. Network driver improvement  
+1. Pipe improvement(in Ringbuffer folder) 2. Network driver improvement(in xv6-labs-2022)  
 
 ![image](https://github.com/suweiyang0106/AdvOS/blob/main/pipecopyinout.png)  
 
