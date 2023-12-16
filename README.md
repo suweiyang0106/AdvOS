@@ -23,8 +23,9 @@ Network transmit architecture is shown above. User needs to allocate memory and 
 which causes a burden due to increased messages. Hence, there is an improvement space.  
 Original: write message chunk by chunk to kernel  
 Improved: map physical address from user to kernel directly  
-**Evaluation** (transmit 660 bytes):  
+**Evaluation** (single process test transmit 660 bytes):  
 Original/Improved(ticks): **19**/**8**   (shown below)  
+Note: Multiprocess test took more time to transmit. I don't know if that is from increased user activities.
 Original  
 ![image](https://github.com/suweiyang0106/AdvOS/blob/main/DriverOriginal.png)  
 Improved  
