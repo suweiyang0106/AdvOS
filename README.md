@@ -15,11 +15,12 @@ using uptime() to evaluate:
 Original/Improved/Improved2(ticks): **337**/**66**/**1**  
 Bandwidth:  
 Original/Improved/Improved2(MB/tick): **0.03**/**0.15**/**14.49**  
-
-![image](https://github.com/suweiyang0106/AdvOS/blob/main/networkdriverarch.png)  
-
+  
 **Network driver improvement**  
   
+![image](https://github.com/suweiyang0106/AdvOS/blob/main/networkdriverarch.png)  
+Network transmit architecture is shown above. User needs to allocate memory and copy the message into kernel address,  
+which causes a burden due to increased messages. Hence, there is an improvement space.  
 Original: write message chunk by chunk to kernel  
 Improved: map physical address from user to kernel directly  
 **Evaluation** (transmit 660 bytes):  
