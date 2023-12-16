@@ -14,6 +14,6 @@ Improved2: map physical address from user to kernel directly + write/read 4 byte
 using uptime() to evaluate:  
 Original/Improved/Improved2(ticks): **337**/**66**/**1**  
 Bandwidth:  
-Original/Improved/Improved2(MB/tick): **0.03**/**0.15**/ **4.49**
+Original/Improved/Improved2(MB/tick): **0.03**/**0.15**/**14.49**
 
 
