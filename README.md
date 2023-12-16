@@ -16,7 +16,7 @@ Original/Improved/Improved2(ticks): **337**/**66**/**1**
 Bandwidth:  
 Original/Improved/Improved2(MB/tick): **0.03**/**0.15**/**14.49**  
 
-![image](https://github.com/suweiyang0106/AdvOS/blob/main/networkdriverarch.png)https://github.com/suweiyang0106/AdvOS/blob/main/networkdriverarch.png)  
+![image](https://github.com/suweiyang0106/AdvOS/blob/main/networkdriverarch.png)  
 
 **Network driver improvement**  
   
