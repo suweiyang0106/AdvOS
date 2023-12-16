@@ -24,7 +24,8 @@ which causes a burden due to increased messages. Hence, there is an improvement 
 Original: write message chunk by chunk to kernel  
 Improved: map physical address from user to kernel directly  
 **Evaluation** (transmit 660 bytes):  
-Original/Improved(ticks): **19**/**8**   (shown below top: original below: improved)  
-  
+Original/Improved(ticks): **19**/**8**   (shown below)  
+Original  
 ![image](https://github.com/suweiyang0106/AdvOS/blob/main/DriverOriginal.png)  
+Improved  
 ![image](https://github.com/suweiyang0106/AdvOS/blob/main/Driverimproved.png)  
