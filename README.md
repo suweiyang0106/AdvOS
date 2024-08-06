@@ -1,6 +1,7 @@
 # AdvOS
 Two projects are here:
-1. Pipe improvement(in Ringbuffer) 2. Network driver improvement(in xv6-labs-2022)  
+1. Pipe improvement(in Ringbuffer)
+2. 2. Network driver improvement(in xv6-labs-2022)  
 
 **Pipe improvement**  
   
@@ -24,7 +25,7 @@ Original: write message chunk by chunk to kernel
 Improved: map physical address from user to kernel directly  
 **Evaluation** (single process test transmit 660 bytes):  
 Original/Improved(ticks): **19**/**8**   (shown below)  
-**Note: Multiprocess test took more time to transmit. I don't know if that is from increased user activities.**  
+**Note: Multiprocess test took more time to transmit. I am not sure if that is from increased user activities.**  
 Original  
 ![image](https://github.com/suweiyang0106/AdvOS/blob/main/DriverOriginal.png)  
 Improved  
